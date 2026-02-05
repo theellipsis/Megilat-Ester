@@ -1,0 +1,71 @@
+.screen {
+  width: var(--size-screen-w);
+  height: var(--size-screen-h);
+  padding: var(--space-screen-pad-top) var(--space-screen-pad-inline);
+  background: var(--color-bg);
+  overflow-y: auto;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-topbar-gap);
+}
+
+.modeToggle {
+  width: var(--size-mode-toggle-w);
+  height: var(--size-mode-toggle-h);
+}
+
+.fontSize {
+  display: flex;
+  align-items: center;
+}
+
+.fontIcon {
+  width: var(--size-font-icon);
+  height: var(--size-font-icon);
+}
+
+.fontButton {
+  width: 24px;
+  height: 24px;
+  padding: 6px 2px;
+  border: 0;
+  background: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.fontButton:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.plusMinus {
+  font-family: var(--font-sans-he);
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  color: var(--color-black);
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.h1Wrap {
+  width: 100%;
+  padding: 20px 0;
+  min-height: 60px;
+}
+
+.h2Wrap {
+  width: var(--size-h2-w);
+  height: var(--size-h2-h);
+}
+

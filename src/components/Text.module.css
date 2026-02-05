@@ -1,0 +1,37 @@
+.h1 {
+  margin: 0;
+  font-family: var(--font-sans-he);
+  font-weight: 400;
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  text-align: right;
+}
+
+.h2 {
+  margin: 0;
+  font-family: var(--font-sans-he);
+  font-weight: 400;
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  text-align: right;
+}
+
+.text {
+  margin: 0;
+  font-family: var(--font-serif-he);
+  font-weight: 400;
+  font-size: var(--fs-text);
+  line-height: var(--lh-text);
+  text-align: right;
+  color: var(--color-text);
+  white-space: pre-wrap;
+}
+
+.pasuk {
+  font-family: var(--font-sans-he);
+  font-weight: 400;
+  font-size: var(--fs-pasuk);
+  line-height: var(--lh-pasuk);
+  color: var(--color-accent);
+}
+

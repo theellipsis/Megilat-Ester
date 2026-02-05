@@ -1,0 +1,39 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111827;
+  --color-accent: #c9b693;
+  --color-black: #000000;
+
+  --font-sans-he: "Noto Sans Hebrew", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-serif-he: "Noto Serif Hebrew", ui-serif, Georgia, "Times New Roman", serif;
+
+  --fs-h1: 24px;
+  --lh-h1: 1.1666666667;
+  --fs-h2: 12px;
+  --lh-h2: 1.6666666667;
+  --fs-text: 16px;
+  --lh-text: 1.5;
+  --fs-pasuk: 6px;
+  --lh-pasuk: 1.3333333333;
+
+  --space-screen-pad-top: 64px;
+  --space-screen-pad-inline: 32px;
+  --space-topbar-gap: 24px;
+  --space-paragraph-gap: 2px;
+  --space-paragraph-pad-bottom: 10px;
+  --space-numbers-gap: 2px;
+  --space-numbers-pad: 2px;
+  --space-quote-gap: 2px;
+  --space-quote-bar-pad-inline-end: 6px;
+
+  --size-screen-w: 320px;
+  --size-screen-h: 1295px;
+  --size-mode-toggle-w: 46.5px;
+  --size-mode-toggle-h: 31px;
+  --size-font-icon: 24px;
+  --size-numbers-w: 30px;
+  --size-numbers-h: 13px;
+  --size-h2-w: 255px;
+  --size-h2-h: 20px;
+}
+
